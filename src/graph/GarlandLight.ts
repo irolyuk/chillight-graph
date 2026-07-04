@@ -68,14 +68,13 @@ export class GarlandLight {
 	}
 
 	private getColor(
-		palette: number[],
+		palette: [number, ...number[]],
 		g: any,
 		index: number,
 		tick: number
 	): number {
-        
 		if (this.settings.mode === "static") {
-			return palette[0]!;
+			return palette[0];
 		}
 
 		if (this.settings.mode === "wave") {

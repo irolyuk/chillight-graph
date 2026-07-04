@@ -11,7 +11,6 @@ export type GarlandTheme =
 	| "vines"
 	| "mushrooms"
 	| "planets"
-	| "crystals"
 	| "moon"
 	| "water"
 	| "butterflies"
@@ -81,7 +80,6 @@ export class SampleSettingTab extends PluginSettingTab {
 					.addOption("vines", "🌿 Vines")
 					.addOption("mushrooms", "🍄 Mushrooms")
 					.addOption("planets", "🪐 Planets")
-					.addOption("crystals", "💎 Crystals")
 					.addOption("moon", "🌙 Moon")
 					.addOption("water", "💧 Water")
 					.addOption("butterflies", "🦋 Butterflies")
